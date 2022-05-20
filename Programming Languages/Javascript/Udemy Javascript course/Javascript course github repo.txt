@@ -1,0 +1,7 @@
+Link to Javascript Course github repo:
+
+https://github.com/jonasschmedtmann/complete-javascript-course
+
+Lecturer's resource page:
+
+https://codingheroes.io/resources/

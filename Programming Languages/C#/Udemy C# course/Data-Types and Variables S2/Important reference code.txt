@@ -1,0 +1,78 @@
+class Program
+    {
+
+        static void Main(string[] args)
+        {
+           // int age = 24;
+           // string myName = "Nathanael";
+
+            // string concatenation
+            /* Console.WriteLine("String Concatenation");
+            Console.WriteLine("Hello, I am " + myName + " a " + age + " year old developer!");
+            Console.Read(); */
+
+            // concatenation using a format string
+            /* Console.WriteLine("Hello, I am {0}, a {1} year old software developer :) !", myName, age);
+             Console.Read(); */
+
+            //string interpolation
+            //uses the $ at the beginning of string to allow use of variable inside curly braces
+            /* Console.WriteLine("String Interpolation");
+            Console.WriteLine($"Hello, I am {myName}, a {age} year old software developer ;)");
+            Console.Read(); */
+
+            //verbatim strings
+            //uses at @ sign at beginning of string value to tell code to take string literally
+            /* Console.WriteLine("Verbatim strings");
+            Console.WriteLine(@"Line 1
+Line 2
+Line 3
+Line 4");
+            Console.Read(); */
+
+            //Challenge 1 #String and it's methods
+
+            /*
+
+            string surname;
+            Console.WriteLine("Enter your name and press enter");
+            surname = Console.ReadLine();
+            Console.WriteLine(surname.ToUpper());
+            Console.WriteLine(surname.ToLower());
+            Console.WriteLine(surname.Trim());
+            string uppercase = String.Format("Uppercase entry: {0}" , surname.ToUpper());
+            Console.WriteLine(uppercase);
+            Console.Read();
+
+            */
+
+            //Challenge 2 
+
+            // search for character index
+
+            Console.WriteLine("Enter a string here:");
+            string randomInput = Console.ReadLine();
+            Console.WriteLine("Which character would you like to search for?");
+            char searchString = Console.ReadLine()[0];
+            int searchIndex = randomInput.IndexOf(searchString);
+            Console.WriteLine($"The index of requested character {searchString} is {searchIndex}");
+             
+
+            //conatenate name and surname
+
+           Console.Write("Enter your first name:");
+           string firstName = Console.ReadLine();
+            Console.Write("Enter your last name:");
+           string  lastName = Console.ReadLine();
+            // string fullName = string.Concat(firstName, " ", lastName);
+            string fullName = firstName + " " + lastName;
+            Console.WriteLine($"Your full name is: {fullName}");
+            Console.Read(); 
+
+            // Challenge: Datatypes and variables
+
+
+
+        }
+
+    }

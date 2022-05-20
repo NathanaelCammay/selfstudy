@@ -1,0 +1,6 @@
+SQL Server Config Tools:
+
+Connection String: Server=localhost;Database=master;Trusted_Connection=True;
+
+Server name: DESKTOP-7S7M8TN\THEBOYNATHAN
+

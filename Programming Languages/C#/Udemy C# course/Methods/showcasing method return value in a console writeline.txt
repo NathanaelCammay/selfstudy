@@ -1,0 +1,21 @@
+static void Main(string[] args)
+        {
+            Console.WriteLine(Calculate());
+            Console.Read();
+        }
+        public static int Calculate()
+        {
+            Console.WriteLine("Enter the first number here: ");
+            string input1 = Console.ReadLine();
+            Console.WriteLine("Enter the second number here: ");
+            string input2 = Console.ReadLine();
+
+            int firstNumber = int.Parse(input1);
+            int secondNumber = int.Parse(input2);
+
+            int answer = firstNumber + secondNumber;
+
+            Console.Write("Your answer is: ");
+
+            return answer;
+        }

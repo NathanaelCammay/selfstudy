@@ -1,2 +1,3 @@
-# selfstudy
-Upskilling myself in my personal time.
+# Self Study
+
+Upskilling myself in various areas during my personal time.
