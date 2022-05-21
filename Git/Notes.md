@@ -11,3 +11,7 @@ Local: Current repository
 # Git tutorial YouTube Link:
 https://www.youtube.com/watch?v=8JJ101D3knE&t=21s
 Contains timestamps to find specific commands
+
+# If you want to skip the staging process
+Simply commit the code without staging first.
+
