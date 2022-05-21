@@ -15,3 +15,15 @@ Contains timestamps to find specific commands
 # If you want to skip the staging process
 Simply commit the code without staging first.
 
+# Changing the name of a file
+Git mv is the command we use when we want to change the name of a file
+
+# Removing files
+Git rm is the command followed by the file name
+
+# Ignoring files
+Sometimes you want git to ignore specific files, as they're too big or unneccessary.
+
+
+
+
