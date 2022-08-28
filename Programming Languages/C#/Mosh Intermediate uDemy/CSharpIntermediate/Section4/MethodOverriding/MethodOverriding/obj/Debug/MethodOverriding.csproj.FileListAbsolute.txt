@@ -4,3 +4,11 @@ C:\Projects\CSharpIntermediate\Section4\MethodOverriding\MethodOverriding\bin\De
 C:\Projects\CSharpIntermediate\Section4\MethodOverriding\MethodOverriding\obj\Debug\MethodOverriding.csprojResolveAssemblyReference.cache
 C:\Projects\CSharpIntermediate\Section4\MethodOverriding\MethodOverriding\obj\Debug\MethodOverriding.exe
 C:\Projects\CSharpIntermediate\Section4\MethodOverriding\MethodOverriding\obj\Debug\MethodOverriding.pdb
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section4\MethodOverriding\MethodOverriding\bin\Debug\MethodOverriding.exe.config
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section4\MethodOverriding\MethodOverriding\bin\Debug\MethodOverriding.exe
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section4\MethodOverriding\MethodOverriding\bin\Debug\MethodOverriding.pdb
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section4\MethodOverriding\MethodOverriding\obj\Debug\MethodOverriding.csproj.AssemblyReference.cache
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section4\MethodOverriding\MethodOverriding\obj\Debug\MethodOverriding.csproj.SuggestedBindingRedirects.cache
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section4\MethodOverriding\MethodOverriding\obj\Debug\MethodOverriding.csproj.CoreCompileInputs.cache
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section4\MethodOverriding\MethodOverriding\obj\Debug\MethodOverriding.exe
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section4\MethodOverriding\MethodOverriding\obj\Debug\MethodOverriding.pdb
