@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JQuery Crash Course | Selectors</title>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="script.js" defer></script>
 
     <!-- this is my CSS -->
 
@@ -65,61 +66,5 @@
         <input type="submit" value="Submit" />
       </form>
     </div>
-
-    <script>
-      $(document).ready(function () {
-        //click events
-
-        // $("#btn1").click(function () {
-        //   alert("Button Clicked!");
-        // });
-
-        // $("#btn1").click(function () {
-        //   // $(".para1").hide();
-        //   $(".para1").toggle();
-        // });
-
-        // $("#btn2").click(function () {
-        //   $(".para1").show();
-        // });
-
-        //
-
-        // $("#btn1").dblclick(function(){
-        // $(".para1").toggle();
-        // })
-
-        // $("#btn1").hover(function(){
-        // $(".para1").toggle();
-        // })
-
-        // Form events
-
-        // $("input").focus(function () {
-        //   //  alert("Focus");
-        //   $(this).css("background", "pink");
-        // });
-
-        // $("input").blur(function () {
-        //   $(this).css("background", "white");
-        // });
-
-        // $("input").keyup(function (e) {
-        //   console.log(e.target.value);
-        // });
-
-        // $("select#gender").change(function (e) {
-        //   alert(e.target.value);
-        // });
-
-$("#form").submit(function (e) { 
-  e.preventDefault();
-  var name = $("input#name").val();
-  console.log(name);
-  
-});
-
-      });
-    </script>
   </body>
 </html>
