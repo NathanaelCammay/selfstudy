@@ -57,7 +57,7 @@ const calcTempAmplitudeNew = function (t1, t2) {
   for (let i = 0; i < temps.length; i++) {
     const curTemp = temps[i];
     if (typeof curTemp !== 'number') continue;
-
+    
     if (curTemp > max) max = curTemp;
     if (curTemp < min) min = curTemp;
   }
@@ -70,6 +70,7 @@ console.log(amplitudeNew);
 
 ///////////////////////////////////////
 // Debugging with the Console and Breakpoints
+*/
 const measureKelvin = function () {
   const measurement = {
     type: 'temp',
@@ -114,7 +115,6 @@ const calcTempAmplitudeBug = function (t1, t2) {
 const amplitudeBug = calcTempAmplitudeBug([3, 5, 1], [9, 4, 5]);
 // A) IDENTIFY
 console.log(amplitudeBug);
-*/
 
 ///////////////////////////////////////
 // Coding Challenge #1

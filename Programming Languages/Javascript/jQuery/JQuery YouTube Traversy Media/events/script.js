@@ -7,10 +7,10 @@ $(document).ready(function () {
   //   alert("Button Clicked!");
   // });
 
-  // $("#btn1").click(function () {
-  //   // $(".para1").hide();
-  //   $(".para1").toggle();
-  // });
+  $("#btn1").click(function () {
+    // $(".para1").hide();
+    $(".para1").toggle();
+  });
 
   // $("#btn2").click(function () {
   //   $(".para1").show();
