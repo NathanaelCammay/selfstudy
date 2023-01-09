@@ -1,3 +1,3 @@
 # Self Study
 
-Upskilling myself in various areas during my personal time.
+A documentation of all my upskillng related to various technologies related to being a software developer.
