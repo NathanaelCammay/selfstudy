@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\selfstudy\Programming Languages\C#\LINQ\LINQ\LINQTutorial\bin\Debug\LINQTutorial.exe.config
+C:\Users\User\Desktop\selfstudy\Programming Languages\C#\LINQ\LINQ\LINQTutorial\bin\Debug\LINQTutorial.exe
+C:\Users\User\Desktop\selfstudy\Programming Languages\C#\LINQ\LINQ\LINQTutorial\bin\Debug\LINQTutorial.pdb
+C:\Users\User\Desktop\selfstudy\Programming Languages\C#\LINQ\LINQ\LINQTutorial\obj\Debug\LINQTutorial.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\selfstudy\Programming Languages\C#\LINQ\LINQ\LINQTutorial\obj\Debug\LINQTutorial.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\selfstudy\Programming Languages\C#\LINQ\LINQ\LINQTutorial\obj\Debug\LINQTutorial.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\selfstudy\Programming Languages\C#\LINQ\LINQ\LINQTutorial\obj\Debug\LINQTutorial.exe
+C:\Users\User\Desktop\selfstudy\Programming Languages\C#\LINQ\LINQ\LINQTutorial\obj\Debug\LINQTutorial.pdb
