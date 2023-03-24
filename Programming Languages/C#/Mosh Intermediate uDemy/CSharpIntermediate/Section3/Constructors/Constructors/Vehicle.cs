@@ -1,20 +1,20 @@
-﻿using System;
+﻿
+using System;
 
 namespace Constructors
 {
-    public class Vehicle
+    class Vehicle
     {
-        private readonly string _registrationNumber;
+        private readonly string registrationNumber;
 
-//        public Vehicle()
-//        {
-//            Console.WriteLine("Vehicle is being initialized.");
-//        }
+        //public Vehicle()
+        //{
+        //    Console.WriteLine("Vehicle is being initialized!");
+        //}
 
         public Vehicle(string registrationNumber)
         {
-            _registrationNumber = registrationNumber;
-
+            this.registrationNumber = registrationNumber;
             Console.WriteLine("Vehicle is being initialized. {0}", registrationNumber);
         }
     }

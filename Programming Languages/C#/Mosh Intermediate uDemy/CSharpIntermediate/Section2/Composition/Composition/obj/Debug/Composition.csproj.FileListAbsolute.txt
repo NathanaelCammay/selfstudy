@@ -4,3 +4,11 @@ C:\Projects\CSharpIntermediate\Section2\Composition\Composition\bin\Debug\Compos
 C:\Projects\CSharpIntermediate\Section2\Composition\Composition\obj\Debug\Composition.csprojResolveAssemblyReference.cache
 C:\Projects\CSharpIntermediate\Section2\Composition\Composition\obj\Debug\Composition.exe
 C:\Projects\CSharpIntermediate\Section2\Composition\Composition\obj\Debug\Composition.pdb
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section2\Composition\Composition\obj\Debug\Composition.csproj.AssemblyReference.cache
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section2\Composition\Composition\obj\Debug\Composition.csproj.SuggestedBindingRedirects.cache
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section2\Composition\Composition\obj\Debug\Composition.csproj.CoreCompileInputs.cache
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section2\Composition\Composition\obj\Debug\Composition.exe
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section2\Composition\Composition\obj\Debug\Composition.pdb
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section2\Composition\Composition\bin\Debug\Composition.exe.config
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section2\Composition\Composition\bin\Debug\Composition.exe
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section2\Composition\Composition\bin\Debug\Composition.pdb

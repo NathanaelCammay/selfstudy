@@ -2,16 +2,16 @@
 {
     public class DbMigrator
     {
-        private readonly Logger _logger;
+        private readonly Logger logger;
 
         public DbMigrator(Logger logger)
         {
-            _logger = logger;
+            this.logger = logger;
         }
 
         public void Migrate()
         {
-            _logger.Log("We are migrating blah blah blah...");
+            logger.Log("We are migrating blah blah blah...");
         }
     }
 }

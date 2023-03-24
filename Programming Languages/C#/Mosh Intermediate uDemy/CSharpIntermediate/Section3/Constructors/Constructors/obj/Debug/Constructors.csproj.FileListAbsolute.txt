@@ -4,3 +4,11 @@ C:\Projects\CSharpIntermediate\Section3\Constructors\Constructors\bin\Debug\Cons
 C:\Projects\CSharpIntermediate\Section3\Constructors\Constructors\obj\Debug\Constructors.csprojResolveAssemblyReference.cache
 C:\Projects\CSharpIntermediate\Section3\Constructors\Constructors\obj\Debug\Constructors.exe
 C:\Projects\CSharpIntermediate\Section3\Constructors\Constructors\obj\Debug\Constructors.pdb
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section3\Constructors\Constructors\bin\Debug\Constructors.exe.config
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section3\Constructors\Constructors\bin\Debug\Constructors.exe
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section3\Constructors\Constructors\bin\Debug\Constructors.pdb
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section3\Constructors\Constructors\obj\Debug\Constructors.csproj.AssemblyReference.cache
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section3\Constructors\Constructors\obj\Debug\Constructors.csproj.SuggestedBindingRedirects.cache
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section3\Constructors\Constructors\obj\Debug\Constructors.csproj.CoreCompileInputs.cache
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section3\Constructors\Constructors\obj\Debug\Constructors.exe
+C:\Users\nathanaelc\Desktop\selfstudy\Programming Languages\C#\Mosh Intermediate uDemy\CSharpIntermediate\Section3\Constructors\Constructors\obj\Debug\Constructors.pdb

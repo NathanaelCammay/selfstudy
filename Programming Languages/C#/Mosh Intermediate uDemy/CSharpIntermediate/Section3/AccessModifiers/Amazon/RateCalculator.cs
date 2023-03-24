@@ -3,7 +3,7 @@ namespace Amazon
 {
     internal class RateCalculator
     {
-        public int Calculate()
+        public int Calculate(Customer customer)
         {
             return 0;
         }

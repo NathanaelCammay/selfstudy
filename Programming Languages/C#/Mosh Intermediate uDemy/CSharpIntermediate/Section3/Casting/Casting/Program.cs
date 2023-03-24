@@ -1,4 +1,7 @@
-﻿
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.IO;
 
 namespace Casting
 {
@@ -6,8 +9,20 @@ namespace Casting
     {
         static void Main(string[] args)
         {
-            Shape shape = new Text();
-            Text text = (Text)shape;
+
+            /////////////////// UPCASTING
+            //var streamReader = new StreamReader(new MemoryStream());
+
+            //var list = new ArrayList();
+            //list.Add(1);
+            //list.Add("1");
+            //list.Add(new Shape());
+
+            //var anotherList = new List<Shape>();
+
+            //////////////////// DOWNCASTING
+            var shape = new Text();
+            var text = (Text)shape;
         }
     }
 }

@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace Composition
 {
     class Program
@@ -13,6 +15,8 @@ namespace Composition
             dbMigrator.Migrate();
 
             installer.Install();
+
+            Console.ReadLine();
         }
     }
 }
