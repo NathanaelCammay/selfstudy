@@ -1,9 +1,5 @@
 ﻿namespace Testability
 {
-    public interface IShippingCalculator
-    {
-        float CalculateShipping(Order order);
-    }
 
     public class ShippingCalculator : IShippingCalculator
     {

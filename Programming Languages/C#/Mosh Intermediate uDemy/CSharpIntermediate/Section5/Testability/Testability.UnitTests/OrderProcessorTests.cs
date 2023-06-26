@@ -34,12 +34,4 @@ namespace Testability.UnitTests
             Assert.AreEqual(DateTime.Today.AddDays(1), order.Shipment.ShippingDate);
         }
     }
-
-    public class FakeShippingCalculator : IShippingCalculator
-    {
-        public float CalculateShipping(Order order)
-        {
-            return 1;
-        }
-    }
 }

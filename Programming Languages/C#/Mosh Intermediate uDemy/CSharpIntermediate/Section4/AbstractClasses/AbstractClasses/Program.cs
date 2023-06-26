@@ -5,7 +5,7 @@ namespace AbstractClasses
     {
         static void Main(string[] args)
         {
-//            var shape = new Shape();
+            //var shape = new Shape();
 
 
             var circle = new Circle();
@@ -13,6 +13,7 @@ namespace AbstractClasses
 
             var rectangle = new Rectangle();
             rectangle.Draw();
+
         }
     }
 }
