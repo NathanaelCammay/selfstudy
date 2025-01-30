@@ -1,0 +1,40 @@
+ClaimsManager.cs  -----------      
+
+public static CasePeril[] GetCasePerils(int caseId)
+        {
+            List<CasePeril> results = new List<CasePeril>();
+
+
+			using (var db = new S4IContext())
+			{
+                results = db.GetCasePerils(caseId)
+
+                    .Select(peril => new CasePeril
+                    {
+                        ClaimId = peril.claim_id,
+                        PerilTypeId = peril.peril_type_id,
+                        Peril = peril.Peril
+                    })
+                    .ToList();
+            }
+
+
+
+            return results.ToArray();
+        }
+
+PolicyService.cs -------------
+
+        public Result<CasePeril[]> GetCasePerils(int caseId)
+        {
+            try
+            {
+                var data = ClaimsManager.GetCasePerils(caseId);
+                return new Result<CasePeril[]>(true, data, string.Empty);
+            }
+            catch (Exception ex)
+            {
+                __Logger.Error("GetCasePerils", ex);
+                return new Result<CasePeril[]>(false, null, ex.Message);
+            }
+        }
