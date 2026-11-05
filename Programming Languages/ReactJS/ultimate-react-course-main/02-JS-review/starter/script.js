@@ -142,3 +142,201 @@ function getBooks() {
 function getBook(id) {
   return data.find((d) => d.id === id);
 }
+
+// Desctructuring
+
+/*
+
+const book = getBook(2);
+book;
+
+// const title = book.title;
+// const author = book.author;
+
+const { title, author, pages, genres, ...theRest } = book;
+book; // give variable EXACTLY same name as object
+theRest;
+
+console.log(author, title, genres);
+
+/// Destructuring with ARRAYS ///
+const primaryGenres = genres[0];
+const secondaryGenres = genres[1];
+console.log(primaryGenres, secondaryGenres);
+
+const [primary, secondary, ...otherGenres] = genres;
+console.log(primary, secondary, otherGenres);
+
+///// REST & SPREAD OPERATOR
+
+const newGenres = ["epic fantasy", ...genres];
+newGenres;
+
+const updatedBook = {
+  ...book,
+  moviePublicationDate: "2001-12-19",
+  pages: 1210,
+};
+updatedBook;
+
+//////////// TEMPLATE LITERALS //////////////////////////
+
+const getYear = (str) => str.split("-")[0];
+
+const summary = `The title of the book is ${title} and it was released in ${getYear(
+  updatedBook.moviePublicationDate
+)}`;
+summary;
+
+///////// TERNARIES //////////////
+
+const ternaryResult = pages > 1000 ? "over a thousand" : "less than a thousand";
+ternaryResult;
+
+/////////// ARROW FUNCTIONS ////////////////
+
+// function getYear(str) {
+//   return str.split("-")[0];
+// }
+
+// const getYear = (str) => str.split("-")[0];
+
+///////////// SHORT-CIRCUITING /////////////////
+
+// short circuiting is the point where it stops and retuns the value which triggered the
+// short circuit based on the type of short circuit it is
+
+console.log(true && "Some string");
+console.log(false && "Some string");
+
+// short circuits as soon as you get a falsey value
+console.log(book.hasMovieAdaptation && "So this book DOES have a movie!");
+
+// short circutis as soon as you get a truthy value
+console.log(false || false || "So this book DOES have a movie!");
+
+console.log(book.translations.english);
+const englishTranslation =
+  book.translations.english || "WE DON'T SPEAK COLONISER HERE!";
+englishTranslation;
+
+// when you want to account for some falsy values
+console.log(book.reviews.librarything.reviewsCount);
+const countReviews = book.reviews.librarything.reviewsCount || "no data";
+countReviews; //this is an example of a pitfall, so use the ?? (nullish coalescing operator) instead
+
+const correctCount = book.reviews.librarything.reviewsCount ?? "no data";
+correctCount;
+
+///////////// OPTIONAL CHAINING /////////////////
+
+function getTotalReviewCount() {
+  const goodRead = book.reviews.goodreads.reviewsCount;
+  const libraryAnything = book?.review?.librarything?.reviewsCount ?? 0;
+  return goodRead + libraryAnything;
+}
+
+console.log(getTotalReviewCount(book)); */
+
+////////////// Array Map Method ///////////////////
+
+/*
+
+function getTotalReviewCount(book) {
+  const goodRead = book.reviews.goodreads.reviewsCount;
+  const libraryAnything = book?.review?.librarything?.reviewsCount ?? 0;
+  return goodRead + libraryAnything;
+}
+const books = getBooks();
+
+const initialArray = [1, 2, 3, 4, 5];
+
+const x = initialArray.map((el) => el * 2); // function passed into MAP FUNCTION, is called for each element in array
+console.log(x);
+
+const titles = books.map((book) => book.title);
+titles;
+
+const essentialData = books.map((book) => ({
+  title: book.title,
+  author: book.author,
+  reviewsCount: getTotalReviewCount(book),
+}));
+essentialData;
+
+const essentialAuthor = essentialData.map((book) => book.author);
+essentialAuthor;
+
+///////////////////// ARRAY FILTER METHOD ////////////////////
+const longBooksWithMovie = books
+  .filter((book) => book.pages > 500)
+  .filter((book) => book.hasMovieAdaptation);
+longBooksWithMovie;
+
+const adventureBooks = books
+  .filter((book) => book.genres.includes("adventure"))
+  .map((book) => book.title);
+adventureBooks;
+
+////// REDUCE ARRAY METHOD //////
+
+const totalPages = books.reduce((sum, book) => sum + book.pages, 0);
+totalPages;
+
+////// SORT ARRAY METHOD //////
+const demoSort = [3, 7, 1, 9, 6];
+const ascending = demoSort.slice().sort((a, b) => a - b);
+ascending;
+
+const descending = demoSort.slice().sort((a, b) => b - a);
+descending;
+
+const sortByPages = books.slice().sort((a, b) => b.pages - a.pages);
+
+////// IMMUTABLE ARRAYS //////
+
+// 1) Add a book object to array
+
+const newBook = {
+  id: 6,
+  title: "Harry Potter",
+  author: "JK Rowling",
+};
+
+const booksAfterAdd = [...books, newBook];
+booksAfterAdd;
+
+// 2) DELETE array
+const booksAfterDelete = booksAfterAdd.filter(
+  (book) => book.title !== "Harry Potter"
+);
+booksAfterDelete;
+
+// 3) Update object inside array
+
+const booksAfterUpdate = booksAfterDelete.map((book) =>
+  book.id === 1 ? { ...book, pages: 1 } : book
+);
+
+booksAfterUpdate; */
+
+////// ASYNC : PROMISES //////
+// console.log(fetch("https://jsonplaceholder.typicode.com/todos"));
+
+// fetch("https://jsonplaceholder.typicode.com/todos")
+//   .then((res) => res.json())
+//   .then((data) => console.log(data));
+
+////// ASYN/AWAIT //////
+
+async function getTodos() {
+  const response = await fetch("https://jsonplaceholder.typicode.com/todos");
+  const data = await response.json();
+
+  return data;
+}
+
+const outcome = getTodos();
+
+console.log(outcome);
+console.log("Nathan");
